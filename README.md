@@ -1,5 +1,5 @@
 # HiT-RSNet
-This work introduces HiT-RSNet, a hybrid transformer–convolutional super-resolution framework tailored for remote sensing imagery. Existing transformer-based SR methods often fail to preserve fine textures, sharp boundaries, and spectral–spatial consistency due to limited global modeling and weak local refinement.
+This work introduces HiT-RSNet, a hybrid transformer–convolutional super-resolution framework for remote sensing imagery. Existing transformer-based SR methods often fail to preserve fine textures, sharp boundaries, and spectral–spatial consistency due to limited global modeling and weak local refinement.
 
 HiT-RSNet addresses these issues through a dual-branch design:
 
@@ -14,3 +14,26 @@ HiT-RSNet addresses these issues through a dual-branch design:
 The model is evaluated on four benchmark datasets (UCMerced, AID, RSCNN7, WHU-RS19) under ×2, ×3, and ×4 upscaling factors. Results consistently show state-of-the-art performance, with HiT-RSNet surpassing CNN-based (VDSR, HSENet) and transformer-based (TransENet, SwinIR) baselines in PSNR, SSIM, SCC, and SAM metrics.
 
 Overall, HiT-RSNet demonstrates the importance of hybrid architectures for remote sensing SR, achieving sharper boundaries, improved edge alignment, and better spectral consistency, which are crucial for tasks like urban monitoring, land-use mapping, and disaster response.
+
+# Coding Hierarchy
+```bash
+HiT-RSNet/
+│── README.md  
+│── requirements.txt
+│── datasets/
+│   ├── UCMerced/
+│   ├── AID/
+│   ├── RSCNN7
+│   ├── WHU-RS19
+│── models/
+│   ├── HiT-RSNet
+│   ├── SOTA Models
+│── Train/
+│   ├── options/
+│   ├── utilities/
+│── Test/
+│── results/
+│   ├── Pre-trained/
+│   ├── Output images/ 
+│── LICENSE
+│── CITATION.cff  # Citation info
