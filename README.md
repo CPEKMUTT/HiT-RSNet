@@ -1,4 +1,4 @@
-# HiT-RSNet
+# HiT-RSNet (Accepted, IEEE Access)
 This work introduces HiT-RSNet, a hybrid transformer–convolutional super-resolution framework for remote sensing imagery. Existing transformer-based SR methods often fail to preserve fine textures, sharp boundaries, and spectral–spatial consistency due to limited global modeling and weak local refinement.
 
 HiT-RSNet addresses these issues through a dual-branch design:
