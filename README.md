@@ -86,5 +86,20 @@ python testing.py --model=HiT-RSNet --scale=3
 python testing.py --model=HiT-RSNet --scale=4
 ```
 
+# Citation
+If you find our article useful, please cite our paper:
+```bash
+@ARTICLE{11184784,
+  author={Sultan, Naveed and Prom-on, Santitham},
+  journal={IEEE Access}, 
+  title={HiT-RSNet: Enhancing Remote Sensing Effectiveness using Transformer-based Super-Resolution Network and Hierarchical Modeling Approach}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Remote sensing;Superresolution;Transformers;Image reconstruction;Satellites;Feature extraction;Adaptation models;Accuracy;Training;Visualization;Remote-sensing;hierarchical modeling;attention;transformers;features refinement},
+  doi={10.1109/ACCESS.2025.3615996}}
+```
+
 # Acknowledgement
 This code is built on [HSENet](https://github.com/Shaosifan/HSENet), [TransENet(Pytorch)](https://github.com/Shaosifan/TransENet) and [HAUNet(Pytorch)](https://github.com/likakakaka/HAUNet_RSISR). We are thankful to the authors for sharing their code for reproducibility. We are also thankful to King Mongkut's University of Technology Thonburi for funding support for the fiscal year 2025-2026.
