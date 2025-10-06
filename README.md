@@ -31,13 +31,15 @@ HiT-RSNet/
 │── models/
 │   ├── HiT-RSNet
 │   ├── SOTA Models
-│── Training/
-│   ├── options/
-│   ├── utilities/
-│── Testing/
-│── results/
-│   ├── Pre-trained/
-│   ├── Output images/ 
+│── Experiments
+│   ├── models/
+│   ├── results/
+│── training.py
+│── testing.py
+│── option.py
+│── utility.py
+│── metrices.py
+│── main.py
 │── LICENSE
 │── CITATION.cff  # Citation info
 ```
