@@ -4,7 +4,6 @@ from torch.nn import functional as F
 import torch
 import warnings
 from thop import profile, clever_format
-
 from model.hit_rsnet import HiT_RSNet
 
 """
@@ -502,10 +501,7 @@ class HRTB(nn.Module):
         x = F.interpolate(x, size=(H, W), mode='bilinear', align_corners=False)
         return self.proj_back(x)
 
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from model import common
+
 
 
 class HiT_RSNet(nn.Module):
