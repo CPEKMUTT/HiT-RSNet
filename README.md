@@ -23,6 +23,10 @@ Overall, HiT-RSNet demonstrates the importance of hybrid architectures for remot
 HiT-RSNet/
 │── README.md  
 │── requirements.txt
+│── Data/
+│   ├── _init_
+│   ├── dataloader
+│   ├── srdata
 │── datasets/
 │   ├── UCMerced/
 │   ├── AID/
