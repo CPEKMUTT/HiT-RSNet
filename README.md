@@ -96,13 +96,13 @@ python testing.py --model=HiT-RSNet --scale=4
 If you find our article useful, please cite our paper:
 ```bash
 @ARTICLE{11184784,
-  author={Sultan, Naveed and Prom-on, Santitham},
+  author={Sultan, Naveed and Prom-On, Santitham},
   journal={IEEE Access}, 
-  title={HiT-RSNet: Enhancing Remote Sensing Effectiveness using Transformer-based Super-Resolution Network and Hierarchical Modeling Approach}, 
+  title={HiT-RSNet: Enhancing Remote Sensing Effectiveness Using Transformer-Based Super-Resolution Network and Hierarchical Modeling Approach}, 
   year={2025},
-  volume={},
+  volume={13},
   number={},
-  pages={1-1},
+  pages={171132-171155},
   keywords={Remote sensing;Superresolution;Transformers;Image reconstruction;Satellites;Feature extraction;Adaptation models;Accuracy;Training;Visualization;Remote-sensing;hierarchical modeling;attention;transformers;features refinement},
   doi={10.1109/ACCESS.2025.3615996}}
 ```
